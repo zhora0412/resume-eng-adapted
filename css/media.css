@@ -1,0 +1,67 @@
+@media (max-width: 1200px) {
+    .projects-link{
+        display: none;
+    }
+    .projects-link-adapted{
+        display: block;
+    }
+}
+
+@media (max-width: 1080px) {
+    .mycontainer{
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .name{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .info-container{
+        margin-bottom: 30px;
+    }
+    .work-title{
+        margin-top: 30px;
+    }
+    .soft-skills-title{
+        margin-top: 30px;
+    }
+    .contacts-conteiner{
+        margin-top: 30px;
+    }
+    .my-photo{
+        max-width: 300px;
+        max-height: 350px;
+    }
+}
+
+@media (max-width: 670px) {
+    .mycontainer{
+        padding: 20px 15px;
+    }
+}
+
+@media (max-width: 640px) {
+    .wrapper{
+        display: inline;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .adaptiv-on{
+        display: block;
+        padding: 10px 20px;
+        color: #fff;
+    }
+    .adaptiv-off{
+        display: none;
+    }
+    .tech-skills-conteiner , .soft-skills-conteiner, .contacts-conteiner{
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+    .my-photo{
+        margin-bottom: 10px;
+    }
+}

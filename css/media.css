@@ -32,7 +32,8 @@
     }
     .my-photo{
         max-width: 300px;
-        max-height: 350px;
+        max-height: 375px;
+        margin: 0 auto;
     }
 }
 
